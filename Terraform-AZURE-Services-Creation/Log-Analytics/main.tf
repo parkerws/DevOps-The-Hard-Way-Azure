@@ -1,7 +1,7 @@
 terraform {
   backend "azurerm" {
-    resource_group_name  = "devopstamops-rg"
-    storage_account_name = "devopstamopssa"
+    resource_group_name  = "kubernetes"
+    storage_account_name = "devopsthwaz"
     container_name       = "tfstate"
     key                  = "la-terraform.tfstate"
   }
